@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/haydenlandingpage/static/css/main.d1b05096.chunk.css",
-    "main.js": "/haydenlandingpage/static/js/main.277b750c.chunk.js",
-    "main.js.map": "/haydenlandingpage/static/js/main.277b750c.chunk.js.map",
+    "main.css": "/haydenlandingpage/static/css/main.06ab7add.chunk.css",
+    "main.js": "/haydenlandingpage/static/js/main.3adf4dad.chunk.js",
+    "main.js.map": "/haydenlandingpage/static/js/main.3adf4dad.chunk.js.map",
     "runtime-main.js": "/haydenlandingpage/static/js/runtime-main.9d6b2603.js",
     "runtime-main.js.map": "/haydenlandingpage/static/js/runtime-main.9d6b2603.js.map",
-    "static/js/2.36897a14.chunk.js": "/haydenlandingpage/static/js/2.36897a14.chunk.js",
-    "static/js/2.36897a14.chunk.js.map": "/haydenlandingpage/static/js/2.36897a14.chunk.js.map",
+    "static/js/2.791e8808.chunk.js": "/haydenlandingpage/static/js/2.791e8808.chunk.js",
+    "static/js/2.791e8808.chunk.js.map": "/haydenlandingpage/static/js/2.791e8808.chunk.js.map",
     "index.html": "/haydenlandingpage/index.html",
-    "precache-manifest.8008e36933f60ae7b70567ca2b30ee66.js": "/haydenlandingpage/precache-manifest.8008e36933f60ae7b70567ca2b30ee66.js",
+    "precache-manifest.f4ea648392b4bdc8f84dd90dcff9a25d.js": "/haydenlandingpage/precache-manifest.f4ea648392b4bdc8f84dd90dcff9a25d.js",
     "service-worker.js": "/haydenlandingpage/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/haydenlandingpage/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.36897a14.chunk.js.LICENSE.txt": "/haydenlandingpage/static/js/2.36897a14.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/haydenlandingpage/static/media/logo.5d5d9eef.svg"
+    "static/css/main.06ab7add.chunk.css.map": "/haydenlandingpage/static/css/main.06ab7add.chunk.css.map",
+    "static/js/2.791e8808.chunk.js.LICENSE.txt": "/haydenlandingpage/static/js/2.791e8808.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/haydenlandingpage/static/media/logo.5d5d9eef.svg",
+    "static/media/index.css": "/haydenlandingpage/static/media/stars.bfa0217e.jpg",
+    "static/media/App.css": "/haydenlandingpage/static/media/stars3.4cbab97e.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.9d6b2603.js",
-    "static/js/2.36897a14.chunk.js",
-    "static/css/main.d1b05096.chunk.css",
-    "static/js/main.277b750c.chunk.js"
+    "static/js/2.791e8808.chunk.js",
+    "static/css/main.06ab7add.chunk.css",
+    "static/js/main.3adf4dad.chunk.js"
   ]
 }
