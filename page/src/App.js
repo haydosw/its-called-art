@@ -3,7 +3,6 @@ import './App.css';
 import Container from '@material-ui/core/Container';
 
 
-import win95 from './Assets/windows95.jpg'; // Tell webpack this JS file uses this image
 import waffle from './Assets/waffle.gif'; // Tell webpack this JS file uses this image
 import waffleKing from './Assets/waffleking.jpg'; // Tell webpack this JS file uses this image
 import vandam from './Assets/vandam.gif'; // Tell webpack this JS file uses this image
@@ -17,6 +16,7 @@ import car3 from './Assets/car3.jpg'; // Tell webpack this JS file uses this ima
 import bovril from './Assets/bovril.jpg'
 import greenwall from './Assets/greenwall.jpg'
 import contact from './Assets/contact.gif'
+import ranger from './Assets/ranger.gif'
 
 function App() {
   return (
@@ -73,8 +73,8 @@ function App() {
         As a troubled youth in baltmore I had one to many run-ins with the law.
         I was senteced to community service at Maryland School of the Arts. This is where I met Nora.
         We fell in love and encouraged each other to follow our passion for dance
-        and fulfil our dreams.  My idols Van Damme and Statham also insipired me from a younge age to pursue dance.
-        Unfortunately my dancing career ended when the rhythm died (99')
+        and fulfil our dreams.  My idols Van Damme, Statham and the Power Rangers also insipired me from a younge age to pursue dance.
+        Unfortunately my dancing career ended when the rhythm died (99').
         </p>
 
 
@@ -83,6 +83,10 @@ function App() {
       <br />
       <br />
       <img src={vandam} className="profile-img" />
+      <br />
+      <br />
+      <br />
+      <img src={ranger} className="profile-img" style={{height: '340px'}} />
       <br />
       <br />
       <br />
@@ -154,7 +158,7 @@ function App() {
 
       <h2 className="Sub"> Skills </h2>
 
-      <p className="About skills">
+      <p className="About">
         <a className="love-label">✫</a> Hiding bones in backyard  <a className="love-label">✫</a><br />
         <a className="love-label">✫</a> Chewing on couch leg <a className="love-label">✫</a> <br />
         <a className="love-label">✫</a> Chasing Cars <a className="love-label">✫</a><br />
@@ -163,18 +167,18 @@ function App() {
       </p>
 
       <h2 className="Sub"> Testimonials </h2>
-      <p className="About Sub2 glow">
+      <p className="About Sub2">
         <i> "Very good boy" - Mum  </i>
       </p>
-      <p className="About Sub2 glow">
+      <p className="About Sub2">
         <i> "Loudest bark in neighbourhood" - Guy Next Door  </i>
       </p>
-      <p className="About Sub2 glow">
+      <p className="About Sub2">
         <i> "Bark" - Other dog at park  </i>
       </p>
 
       <h2 className="Sub"> Contact </h2>
-      <p className="About Sub2">
+      <p className="About Sub2 glow">
         electonic mail - wiltshih@gmail.com         
       </p>
       <img src={contact} className="profile-img" />
