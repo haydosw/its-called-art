@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.e1a8fa6c.chunk.css",
-    "main.js": "/static/js/main.cbdbe40b.chunk.js",
-    "main.js.map": "/static/js/main.cbdbe40b.chunk.js.map",
+    "main.css": "/static/css/main.36c682ea.chunk.css",
+    "main.js": "/static/js/main.a35f7f4b.chunk.js",
+    "main.js.map": "/static/js/main.a35f7f4b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e368e194.js",
     "runtime-main.js.map": "/static/js/runtime-main.e368e194.js.map",
-    "static/js/2.893e101f.chunk.js": "/static/js/2.893e101f.chunk.js",
-    "static/js/2.893e101f.chunk.js.map": "/static/js/2.893e101f.chunk.js.map",
+    "static/js/2.e7863198.chunk.js": "/static/js/2.e7863198.chunk.js",
+    "static/js/2.e7863198.chunk.js.map": "/static/js/2.e7863198.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8090ae19d06a41fa02ba5db73a31ae63.js": "/precache-manifest.8090ae19d06a41fa02ba5db73a31ae63.js",
+    "precache-manifest.7fcd9d47554fe4d02c2fa97c00c0a1d0.js": "/precache-manifest.7fcd9d47554fe4d02c2fa97c00c0a1d0.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.e1a8fa6c.chunk.css.map": "/static/css/main.e1a8fa6c.chunk.css.map",
-    "static/js/2.893e101f.chunk.js.LICENSE.txt": "/static/js/2.893e101f.chunk.js.LICENSE.txt",
+    "static/css/main.36c682ea.chunk.css.map": "/static/css/main.36c682ea.chunk.css.map",
+    "static/js/2.e7863198.chunk.js.LICENSE.txt": "/static/js/2.e7863198.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/background.cbbfead4.jpg",
     "static/media/bovril.jpg": "/static/media/bovril.2e62557b.jpg",
     "static/media/car.jpg": "/static/media/car.e2b46625.jpg",
@@ -21,6 +21,7 @@
     "static/media/copilot.jpg": "/static/media/copilot.a1dd7260.jpg",
     "static/media/donny.jpg": "/static/media/donny.c56f4143.jpg",
     "static/media/greenwall.jpg": "/static/media/greenwall.48049e3e.jpg",
+    "static/media/ranger.gif": "/static/media/ranger.22c6d4f6.gif",
     "static/media/App.css": "/static/media/stars.4cbab97e.gif",
     "static/media/statham.gif": "/static/media/statham.3fcbd7b6.gif",
     "static/media/thelama.png": "/static/media/thelama.13ec333d.png",
@@ -29,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.e368e194.js",
-    "static/js/2.893e101f.chunk.js",
-    "static/css/main.e1a8fa6c.chunk.css",
-    "static/js/main.cbdbe40b.chunk.js"
+    "static/js/2.e7863198.chunk.js",
+    "static/css/main.36c682ea.chunk.css",
+    "static/js/main.a35f7f4b.chunk.js"
   ]
 }
