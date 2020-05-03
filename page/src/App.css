@@ -1,38 +1,276 @@
 .App {
-  text-align: center;
+    text-align: center;
+    background: url("./Assets/stars.gif");
+    /* opacity: 0.85;   */
+    /* top: 0;
+    left: 0; */
+    max-width: 1800px; 
+    
+    /* width: 1400px; */
+    /* height: 100%; */
+    /* position: absolute; */
+    z-index: -1;
+    /* content: ""; */
+    border: 15px solid;
+    /* border-image:  linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%); */
+    /* border-image: url("./Assets/waffle.gif"); */
+    border-image: repeating-linear-gradient(45deg, rgb(224, 47, 255), rgb(0, 255, 149) 75px) 45;
+    /* border-image-slice: 1; */
+    /* border-bottom: none;
+    border-top: none; */      
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.waff {
+    max-width: 230px;
+    animation: App-logo-spin infinite 10s linear;
+}
+
+.waff2 {
+    max-height: 240px;
+    max-width: 400px;
+    border: 6px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+}
+
+hr {
+    border-width: 7px;
+    border-image: repeating-linear-gradient(45deg, rgb(255, 255, 255), rgb(249, 123, 222) 75px) 45;
+    border-top: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
+
+/* .Content{
+  height: 100%;
+  border: 10px solid transparent;
+border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+border-image-slice: 1;
+border-bottom: none;
+border-top: none;
+} */
+
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+    margin-top: 20px;
+    color: #54ed18!important;
+    text-shadow: 5px 5px #aa00d4;
+    font-size: 85px;
+    font-variant: full-width;
+    -webkit-animation-name: headings;
+    -webkit-animation-duration: 1s;
+    animation-name: headings;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    margin-bottom: 0px;
+    font-variant-caps: small-caps;
+}
+
+.Name {
+    text-decoration: underline;
+}
+
+@-webkit-keyframes headings {
+    0% {
+        color: cyan;
+        text-shadow: 5px 5px darkmagenta;
+    }
+}
+
+@keyframes headings {
+    0% {
+        color: cyan;
+        text-shadow: 5px 5px darkmagenta;
+    }
+}
+
+.love-label {
+    color: hsl(301, 76%, 61%);
+    font-size: 30px;
+    font-family: 'Luckiest Guy', cursive;
+    height: 50px;
+    left: 0;
+    margin-top: 15px;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    top: 50%;
+    width: 100%;
+    animation: move linear 1000ms infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: rotate(0deg);
+        text-shadow: 4px -4px 0 hsl(125, 100%, 50%, 1), 3px -3px 0 hsl(125, 100%, 50%, 1), 2px -2px 0 hsl(125, 100%, 50%, 1), 1px -1px 0 hsl(125, 100%, 50%, 1), -4px 4px 0 hsla(180, 100%, 50%, 1), -3px 3px 0 hsla(180, 100%, 50%, 1), -2px 2px 0 hsla(180, 100%, 50%, 1), -1px 1px 0 hsla(180, 100%, 50%, 1);
+    }
+    25% {
+        text-shadow: -4px -4px 0 hsla(180, 100%, 50%, 1), -3px -3px 0 hsla(180, 100%, 50%, 1), -2px -2px 0 hsla(180, 100%, 50%, 1), -1px -1px 0 hsla(180, 100%, 50%, 1), 4px 4px 0 hsl(125, 100%, 50%, 1), 3px 3px 0 hsl(125, 100%, 50%, 1), 2px 2px 0 hsl(125, 100%, 50%, 1), 1px 1px 0 hsl(125, 100%, 50%, 1);
+    }
+    50% {
+        text-shadow: -4px 4px 0 hsl(125, 100%, 50%, 1), -3px 3px 0 hsl(125, 100%, 50%, 1), -2px 2px 0 hsl(125, 100%, 50%, 1), -1px 1px 0 hsl(125, 100%, 50%, 1), 4px -4px 0 hsla(180, 100%, 50%, 1), 3px -3px 0 hsla(180, 100%, 50%, 1), 2px -2px 0 hsla(180, 100%, 50%, 1), 1px -1px 0 hsla(180, 100%, 50%, 1);
+    }
+    75% {
+        text-shadow: 4px 4px 0 hsla(180, 100%, 50%, 1), 3px 3px 0 hsla(180, 100%, 50%, 1), 2px 2px 0 hsla(180, 100%, 50%, 1), 1px 1px 0 hsla(180, 100%, 50%, 1), -4px -4px 0 hsl(125, 100%, 50%, 1), -3px -3px 0 hsl(125, 100%, 50%, 1), -2px -2px 0 hsl(125, 100%, 50%, 1), -1px -1px 0 hsl(125, 100%, 50%, 1);
+    }
+    100% {
+        transform: rotate(360deg);
+        text-shadow: 4px -4px 0 hsl(125, 100%, 50%, 1), 3px -3px 0 hsl(125, 100%, 50%, 1), 2px -2px 0 hsl(125, 100%, 50%, 1), 1px -1px 0 hsl(125, 100%, 50%, 1), -4px 4px 0 hsla(180, 100%, 50%, 1), -3px 3px 0 hsla(180, 100%, 50%, 1), -2px 2px 0 hsla(180, 100%, 50%, 1), -1px 1px 0 hsla(180, 100%, 50%, 1);
+    }
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+.Title {
+    margin-top: 0px;
+    /* font-family: 'Luckiest Guy', cursive; */
+    /* font-family: 'Bubblegum Sans',cursive; */
+    font-family: 'Bubblegum Sans', cursive;
+    /* margin-top: 20px; */
+    letter-spacing: 10px;
+    color: white;
+    /* text-shadow: 5px 5px #ff00ff; */
+    text-shadow: -3px -3px 0 #54ed18, 3px -3px 0 #ff00ff, -3px 3px 0 red, 3px 3px 0 aqua;
+    font-size: 45px;
+    /* text-decoration: underline; */
+    font-variant: full-width;
+    margin-bottom: 40px;
+    font-variant-caps: small-caps;
+}
+
+.Sub {
+    margin-top: 0px;
+    /* font-family: 'Luckiest Guy', cursive; */
+    /* font-family: 'Bubblegum Sans',cursive; */
+    /* font-family: 'Bubblegum Sans',cursive;  */
+    /* margin-top: 20px; */
+    /* letter-spacing:10px; */
+    color: #fad233!important;
+    text-shadow: 5px 5px #f30;
+    font-size: 35px;
+    /* text-decoration: underline; */
+    /* font-variant: full-width; */
+    margin-bottom: 40px;
+    font-variant-caps: small-caps;
+}
+
+.Sub2 {
+    margin-top: 0px;
+    /* font-family: 'Luckiest Guy', cursive; */
+    /* font-family: 'Bubblegum Sans',cursive; */
+    /* font-family: 'Bubblegum Sans',cursive;  */
+    /* margin-top: 20px; */
+    /* letter-spacing:10px; */
+    color: #00ff37!important;
+    text-shadow: 5px 5px #3700ff;
+    font-size: 35px;
+    /* text-decoration: underline; */
+    /* font-variant: full-width; */
+    margin-bottom: 40px;
+
+}
+
+.glow {
+    color: #fff;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
   }
-  to {
-    transform: rotate(360deg);
+  @keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+      }
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+      }
   }
+
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+.About {
+    margin-top: 0px;
+    font-family: 'Bubblegum Sans', cursive;
+    color: white;
+    font-size: 30px;
+}
+
+.shed {
+    text-decoration: line-through;
+}
+
+.profile-img {
+    background: #ffffffd6;
+    max-width: 100%;
+    max-height: 350px;
+    height: auto;
+    width: auto\9;
+    object-fit: cover;
+    cursor: pointer;
+    border: 6px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+}
+
+.skills {
+    -webkit-animation-name: headings2;
+    -webkit-animation-duration: 3s;
+    animation-name: headings2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes headings2 {
+    0% {
+        color: greenyellow;
+        text-shadow: 5px 5px aqua;
+    }
+}
+
+@-webkit-keyframes headings2 {
+    0% {
+        color: cyan;
+        text-shadow: 5px 5px darkmagenta;
+    }
+}
+
+.Green {
+    color: #ff00f7!important
 }
