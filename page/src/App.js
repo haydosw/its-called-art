@@ -17,13 +17,36 @@ import bovril from './Assets/bovril.jpg'
 import greenwall from './Assets/greenwall.jpg'
 import contact from './Assets/contact.gif'
 import ranger from './Assets/ranger.gif'
+import Log from './Log';
+
+setTimeout(() => {
+  console.clear()
+  Log.info("##################################################")
+  Log.info("##################################################")
+  Log.info("##################################################")
+  Log.info("##################################################")
+  Log.info("##################################################")
+  Log.info("##################################################")
+  Log.info("##################################################")
+  Log.info("***** THIS IS JUST FOR FUN and ITs not good code")
+  Log.info("***** BUT I do actually do proper engineering")
+  Log.info("***** Drop me an email: wiltshih@outlook.com")
+  Log.info("***** OR take a look at https://www.linkedin.com/in/haydenwiltshire/")
+  Log.info("##################################################")
+  Log.info("##################################################")
+  Log.info("##################################################")
+  Log.info("##################################################")
+  Log.info("##################################################")
+  Log.info("##################################################")
+  Log.info("##################################################")
+}, 3000)
 
 function App() {
   return (
     <Container className="App">
 
       <h1>
-        <a className="love-label">✫✫✫✫✫✫</a> <a className="Name">Hayden Wiltshire</a> <a className="love-label">✫✫✫✫✫✫</a>
+        <a className="love-label">✫✫✫✫</a> <a className="Name">Hayden Wiltshire</a> <a className="love-label">✫✫✫✫</a>
       </h1>
       <h2>
         <a className="Title">software engineer</a>

@@ -1,11 +1,14 @@
+.MuiContainer-maxWidthLg {
+    max-width: 1000px!important; 
+
+}
 .App {
     text-align: center;
     background: url("./Assets/stars.gif");
     /* opacity: 0.85;   */
     /* top: 0;
     left: 0; */
-    max-width: 1800px; 
-    
+
     /* width: 1400px; */
     /* height: 100%; */
     /* position: absolute; */
