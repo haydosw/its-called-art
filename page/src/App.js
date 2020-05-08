@@ -2,8 +2,13 @@ import React from 'react';
 import './App.css';
 import Container from '@material-ui/core/Container';
 
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
-import waffle from './Assets/waffle.gif'; // Tell webpack this JS file uses this image
 import waffleKing from './Assets/waffleking.jpg'; // Tell webpack this JS file uses this image
 import vandam from './Assets/vandam.gif'; // Tell webpack this JS file uses this image
 import statham from './Assets/statham.gif'; // Tell webpack this JS file uses this image
@@ -15,8 +20,10 @@ import car2 from './Assets/car2.jpg'; // Tell webpack this JS file uses this ima
 import car3 from './Assets/car3.jpg'; // Tell webpack this JS file uses this image
 import bovril from './Assets/bovril.jpg'
 import greenwall from './Assets/greenwall.jpg'
-import contact from './Assets/contact.gif'
 import ranger from './Assets/ranger.gif'
+import tick from './Assets/tick.png'
+import tipper from './Assets/tipper.jpg'
+
 import Log from './Log';
 
 setTimeout(() => {
@@ -41,7 +48,7 @@ setTimeout(() => {
   Log.info("##################################################")
 }, 3000)
 
-function App() {
+function Body() {
   return (
     <Container className="App">
 
@@ -109,7 +116,7 @@ function App() {
       <br />
       <br />
       <br />
-      <img src={ranger} className="profile-img" style={{height: '340px'}} />
+      <img src={ranger} className="profile-img" style={{ height: '340px' }} />
       <br />
       <br />
       <br />
@@ -135,7 +142,7 @@ function App() {
       <p className="About">
         (The crew: Sway, Otto and Donny)
       </p>
-{/* 
+      {/* 
       <hr />    
       <br />
        */}
@@ -154,16 +161,15 @@ function App() {
       <br />
        */}
       <p className="About">
-        While makeing my way to L.A I was contacted by my old friend Greenwall.
+        While makeing my way to L.A I was contacted by my old friend Greenwall. He needed me to investigate the disappearance of a rare white bat.
       </p>
       <img src={greenwall} className="profile-img" />
       <p className="About">
         (Greenwall 92')
       </p>
-      
+
       <p className="About">
-        He needed me to investigate the disappearance of a rare white bat. The sacred animal of the native Wachati tribe,
-        which disappeared shortly after being offered as dowry of the Wachati Princess, who was set to wed the Wachootoo
+        The sacred animal of the native Wachati tribe, which disappeared shortly after being offered as dowry of the Wachati Princess, who was set to wed the Wachootoo
         Prince in a marriage of state.
       </p>
 
@@ -174,48 +180,66 @@ function App() {
       <h2 className="Sub"> Hobbies </h2>
 
       <p className="About">
-        Sleeping 14 hours a day <br />
-        Most nights I enjoy barking into darkness for no reason. <br />
-        Trying to fight everyone <br />
+        <img src={tick} className="tick" /> Sleeping 14 hours a day <img src={tick} className="tick" /> <br />
+        <img src={tick} className="tick" /> Most nights I enjoy barking into darkness for no reason. <img src={tick} className="tick" /><br />
+        <img src={tick} className="tick" /> Trying to fight everyone <img src={tick} className="tick" /> <br />
+        <img src={tick} className="tick" /> Looking you in eye then doing whatever I wanted anyway <img src={tick} className="tick" /> <br />
+
+        <img src={tick} className="tick" /> Dragging my ass on carpet <img src={tick} className="tick" /> <br />
+        <img src={tick} className="tick" /> Jumping in the creek despite being told not too <img src={tick} className="tick" /> <br />
       </p>
 
       <h2 className="Sub"> Skills </h2>
 
       <p className="About">
-        <a className="love-label">✫</a> Hiding bones in backyard  <a className="love-label">✫</a><br />
-        <a className="love-label">✫</a> Chewing on couch leg <a className="love-label">✫</a> <br />
-        <a className="love-label">✫</a> Chasing Cars <a className="love-label">✫</a><br />
-        <a className="love-label">✫</a> Not sitting when told <a className="love-label">✫</a> <br />
-        <a className="love-label">✫</a> Looking you in eye then doing whatever I wanted anyway <a className="love-label">✫</a> <br />
+        Can hiding bone in backyard with great accuracy <br />
+      VB6<br />
+       Looking clearly guilty of something when I smile <br />
+       Eating every meal like its my last <br />
+       Windows 95 <br />
+             Expert trolly tipper (below) <br />
       </p>
+
+      <img className="profile-img" src={tipper} />
+
+      <br />
+      <br />
+      <br />
 
       <h2 className="Sub"> Testimonials </h2>
       <p className="About Sub2">
         <i> "Very good boy" - Mum  </i>
       </p>
       <p className="About Sub2">
-        <i> "Loudest bark in neighbourhood" - Guy Next Door  </i>
+        <i> "Loudest bark in neighbourhood" - Neighbour </i>
       </p>
       <p className="About Sub2">
-        <i> "Bark" - Other dog at park  </i>
+        <i> "Dont eat that" - Also Mum    </i>
       </p>
 
       <h2 className="Sub"> Contact </h2>
       <p className="About Sub2 glow">
-        electonic mail - wiltshih@gmail.com         
+        electonic mail - wiltshih@gmail.com
       </p>
-      <img src={contact} className="profile-img" />
-      <br/>
-      
-
-      <br />
-      <br />
 
       <p className="About">
         <i> 1997  </i>
       </p>
 
     </Container>
+  );
+}
+
+
+function App() {
+  return(
+    <Router>
+      <Switch>
+        <Route path="/">
+          <Body />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 

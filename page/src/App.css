@@ -2,6 +2,14 @@
     max-width: 1000px!important; 
 
 }
+
+.tick {
+    max-width: 25px;
+    border-image: repeating-linear-gradient(45deg, rgb(224, 47, 255), rgb(0, 255, 149) 75px) 45;
+    opacity: 0.8;
+    /* font-family: 'Fruktur', cursive!important; */
+}
+
 .App {
     text-align: center;
     background: url("./Assets/stars.gif");
@@ -174,6 +182,8 @@ h2 {
 
 .Sub {
     margin-top: 0px;
+    font-family: 'Fruktur', cursive!important;
+    letter-spacing: 5px;
     /* font-family: 'Luckiest Guy', cursive; */
     /* font-family: 'Bubblegum Sans',cursive; */
     /* font-family: 'Bubblegum Sans',cursive;  */
